@@ -1,18 +1,3 @@
-<b>Comic guy:</b>
-<div id="testingItem"></div>
-<br/>
-<b>Decision Tree prediction:</b>
-<div id="decisionTreePrediction"></div>
-<br/>
-<b>Random Forest prediction:</b>
-<div id="randomForestPrediction"></div>
-<br/>
-<b>Decision Tree:</b>
-<br/>
-
-<div class="tree" id="displayTree"></div>
-
-<script type="text/javascript">
 // Training set
 var data = 
     [{person: 'Homer', hairLength: 0, weight: 250, age: 36, sex: 'male'},
@@ -85,5 +70,3 @@ function treeToHtml(tree) {
                 '</li>',
              '</ul>'].join('');
 }
-
-</script>
